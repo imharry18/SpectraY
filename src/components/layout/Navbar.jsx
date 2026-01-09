@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="absolute inset-0 bg-white/20 blur-lg rounded-xl opacity-0 group-hover:opacity-50 transition-opacity" />
         </div>
         <span className="text-xl font-bold tracking-widest text-white">
-          SPECTRA<span className="text-cyan-400">X</span>
+          SPECTRA<span className="text-cyan-400">Y</span>
         </span>
       </Link>
 

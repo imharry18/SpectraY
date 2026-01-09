@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <Camera className="w-6 h-6 text-cyan-400" />
-              <span className="text-xl font-bold text-white tracking-widest">SPECTRAX</span>
+              <span className="text-xl font-bold text-white tracking-widest">SPECTRAY</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               The professional standard for web-based image processing. 
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Bottom Section: Copyright */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600">
-          <p>&copy; {new Date().getFullYear()} SpectraX Inc. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SpectraY Inc. All rights reserved.</p>
           <div className="flex items-center gap-2 mt-4 md:mt-0">
              <div className="w-2 h-2 rounded-full bg-green-500"></div>
              <span>Systems Operational</span>
