@@ -144,7 +144,7 @@ export default function FiltersPage() {
         
         // Upload to backend
         try {
-            await fetch('http://localhost:5000/upload', {
+            await fetch('/api/upload', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ image: base64Data })

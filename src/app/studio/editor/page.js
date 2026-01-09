@@ -99,7 +99,7 @@ export default function EditorPage() {
         
         try {
             // console.log("Uploading to backend...");
-            const res = await fetch('http://localhost:5000/upload', {
+            const res = await fetch('/api/upload', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ image: base64Data })
