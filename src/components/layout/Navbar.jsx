@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 export default function Navbar() {
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Filters', href: '#filters' },
-    { name: 'Editing', href: '#editing' },
+    { name: 'Filters', href: '/studio/filters' },
+    { name: 'Editing', href: '/studio/editor' },
     { name: 'SpectAI', href: '#ai' },
     { name: 'Docs', href: '/docs' },
     { name: 'About', href: '/about' },
@@ -47,7 +47,7 @@ export default function Navbar() {
       {/* Right Action Area */}
       <div className="flex items-center gap-4">
         <Link 
-            href="https://github.com" 
+            href="https://github.com/imharry18/spectray" 
             className="hidden md:flex items-center justify-center w-10 h-10 text-gray-400 hover:text-white hover:bg-white/10 rounded-full transition-all"
         >
             <Github size={20} />
